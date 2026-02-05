@@ -24,11 +24,30 @@ REST API para gestión de turnos con usuarios y roles, pensada para casos de uso
 - DELETE /appointments/:id → eliminar turno
 
 ## Cómo correr el proyecto
+
+```markdown
 1. Clonar el repositorio
 ```bash
 git clone https://github.com/tuusuario/appointments-api.git
 
 npm install
 npm run dev
+## Estructura recomendada del proyecto
+
+appointments-api/
+├─ node_modules/
+├─ src/
+│  ├─ controllers/
+│  ├─ models/
+│  ├─ routes/
+│  ├─ services/
+│  └─ app.js
+├─ .env
+├─ .env.example
+├─ .gitignore
+├─ package.json
+└─ README.md
+## License
+MIT
 
 
